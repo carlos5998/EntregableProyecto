@@ -1,0 +1,195 @@
+/* ---------- Estilos generales ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  color: #16192c;
+}
+
+/* ---------- Header ---------- */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+#nav {
+  display: flex;
+  gap: 30px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+#btn-nav {
+  background-color: #31d35c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+#logo {
+  width: 200px;
+  width: 200px;
+}
+
+/* ---------- Hero ---------- */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  background-color: #f5f5f5;
+}
+
+#hero-texto {
+  width: 45%;
+}
+
+#hero-texto h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#hero-texto p {
+  margin-bottom: 25px;
+}
+
+#hero-imagen img {
+  width: 100%;
+  max-width: 400px;
+}
+
+#btn-hero {
+  background-color: #16192c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+/* ---------- Características ---------- */
+#caracteristicas {
+  text-align: center;
+  padding: 60px 50px;
+}
+
+#parrafo-caracteristicas {
+  max-width: 600px;
+  margin: 15px auto 40px auto;
+}
+
+#lista-caracteristicas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.caracteristica {
+  flex: 1 1 200px;
+  text-align: left;
+}
+
+.caracteristica img {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+/* ---------- Artículos ---------- */
+#recomendaciones {
+  background-color: #f5f5f5;
+  padding: 60px 50px;
+}
+
+#recomendaciones h2 {
+  margin-bottom: 30px;
+}
+
+#lista-recomendaciones {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.recomendaciones-personales {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  flex: 1 1 280px;
+}
+
+.recomendaciones-personales img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.info-articulo {
+  padding: 15px 20px;
+}
+
+.autor {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+/* ---------- Footer ---------- */
+#footer {
+  background-color: #16192c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px 50px;
+}
+
+#footer img{
+  width: 100px;
+  height: 100px;
+}
+
+#nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#nav-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#redes-footer {
+  display: flex;
+  gap: 15px;
+}
+
+#redes-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#copyright {
+  font-size: 13px;
+  color: #aaa;
+}
+
